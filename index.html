@@ -23,6 +23,8 @@
         <py-config src="/testweb/pyscript.toml"></py-config>
         <py-script>
             import runpy
+            import pyodide_js
+            await pyodide_js.loadPackage('ssl')
             result = runpy.run_module("course_order_suggestion_system", run_name="__main__", alter_sys=True)
         </py-script>
     </body>
