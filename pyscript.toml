@@ -4,19 +4,11 @@ version = "0.0.1"
 terminal = false
 packages = [
     "ssl",
-    "/testweb/static/wheels/anyio-4.3.0-py3-none-any.whl",
-    "/testweb/static/wheels/certifi-2024.2.2-py3-none-any.whl",
+    "aiohttp",
     "/testweb/static/wheels/course_order_suggestion_system-0.0.1-py3-none-any.whl",
-    "/testweb/static/wheels/exceptiongroup-1.2.0-py3-none-any.whl",
-    "/testweb/static/wheels/h11-0.14.0-py3-none-any.whl",
-    "/testweb/static/wheels/httpcore-1.0.5-py3-none-any.whl",
-    "/testweb/static/wheels/httpx-0.27.0-py3-none-any.whl",
-    "/testweb/static/wheels/idna-3.7-py3-none-any.whl",
-    "/testweb/static/wheels/sniffio-1.3.1-py3-none-any.whl",
     "/testweb/static/wheels/toga_core-0.4.2-py3-none-any.whl",
     "/testweb/static/wheels/toga_web-0.4.2-py3-none-any.whl",
     "/testweb/static/wheels/travertino-0.3.0-py3-none-any.whl",
-    "/testweb/static/wheels/typing_extensions-4.11.0-py3-none-any.whl",
 ]
 
 [splashscreen]
