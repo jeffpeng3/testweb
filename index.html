@@ -25,7 +25,7 @@
             import runpy
             import pyodide_js
             import asyncio
-            asyncio.run(pyodide_js.loadPackage('ssl'))
+            asyncio.create_task(pyodide_js.loadPackage('ssl'))
             result = runpy.run_module("course_order_suggestion_system", run_name="__main__", alter_sys=True)
         </py-script>
     </body>
