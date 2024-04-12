@@ -22,6 +22,12 @@
 
         <py-config src="/testweb/pyscript.toml"></py-config>
         <py-script>
+            import pyodide_js,asyncio
+            async def install():
+                await pyodide_js.loadPackage('aiohttp')
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(install())
+
             import runpy
             result = runpy.run_module("course_order_suggestion_system", run_name="__main__", alter_sys=True)
         </py-script>
