@@ -3,7 +3,7 @@ description = "NTUST course order suggestion system"
 version = "0.0.1"
 terminal = false
 packages = [
-    "ssl"
+    "ssl",
     "/testweb/static/wheels/anyio-4.3.0-py3-none-any.whl",
     "/testweb/static/wheels/certifi-2024.2.2-py3-none-any.whl",
     "/testweb/static/wheels/course_order_suggestion_system-0.0.1-py3-none-any.whl",
